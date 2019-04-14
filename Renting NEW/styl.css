@@ -1,0 +1,9 @@
+.box{
+    font-size: 30px;
+    background-color: #f5a623;
+}
+.col-md-2{
+    background-color: #3c3f3f;
+    border: 1px solid black;
+    text-align: center;
+}
