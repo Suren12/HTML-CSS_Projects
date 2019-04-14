@@ -1,0 +1,399 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.part1{
+	width: 100%;
+	background-image: url("../img/001.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.list{
+	float: right;
+	display: block;
+}
+.list a{
+	text-decoration: none;
+	color: #fff;
+}
+.list .Us{
+	color: #f5a623;
+}
+.list ul li{
+	text-transform: uppercase;
+	float: left;
+	font-size: 16px;
+	padding-top: 23px;
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 28px;
+	color: #fff;
+
+}
+.list li:last-child{
+	border-radius: 5px;
+	margin-top: 0;
+	margin-right: 40px;
+	padding: 22px 23px;
+	background-color: #fff;
+	color: #f5a623;
+	float: right;
+}
+.clearfix{
+	clear: both;
+}
+.heading h1,p{
+	text-align: center;
+	margin: 0;
+	color: #fff;
+}
+.heading h1{
+	margin-top: 114px;
+	font-size: 60px;
+}
+.heading p{
+	margin-top: 2px;
+	font-size: 29px;
+}
+table .berlin{
+	padding: 17px 295px 15px 30px;
+	width: 279px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	margin-top: 43px;
+	border-radius: 3px;
+}
+.tables{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+.tables select{
+	margin-top: 12px;
+	padding: 17px 110px 15px 30px;
+	border-radius: 3px;
+	border:none;
+	color: grey;
+}
+.right{
+	margin-top: 12px;
+	border-radius: 3px;
+	border:none;
+	padding: 17px 54px 15px;
+	background-color: #f5a623;
+}
+.right a{
+	text-decoration: none;
+	color: #fff;
+}
+.how input{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	border:none;
+	padding: 16px 45px 15px 45px;
+	margin-top: 60px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: grey;
+	cursor: pointer;
+	backface-visibility: 
+}
+.how a{
+	text-decoration: none;
+}
+.nerqev{
+	padding-bottom: 150px;
+}
+/*part 2 skizb*/
+.part2{
+	background-color: #f6f8fa;
+	width: 100%;
+}
+.full2{
+	width: 78%;
+	margin-left: 8%;
+	margin-right: 15%;
+}
+.row2 p{
+	display: inline-block;
+	color: grey;
+	margin-top: 70px;
+	margin-bottom: 57px;
+	font-size: 18px;
+}
+.row2 p:first-child{
+	text-decoration: underline;
+	text-decoration-color: #f5a623;
+	color: #1e5160;
+}
+.row2 p:last-child{
+	padding-left: 30px;
+}
+.image{
+	background-color: #fff;
+	width: 343px;
+	float: left;
+	display: inline-block;
+	margin-right: 40px;
+}
+.image .texanq{
+	margin-top: 21px;
+}
+.image p{
+	text-align: left;
+	color: grey;
+}
+.image h2{
+	margin-top: 5px;
+	margin-bottom: 33px;
+	color: #1e5160;
+}
+.about .info{
+	display: inline-block;
+	float: left;
+}
+.about .info:first-child{
+	margin-left: 20px;
+}
+.about .info:nth-child(2){
+	margin-left: 53px;
+	margin-right: 71px;
+}
+.info .orange{
+	color: #f5a623;
+	font-size: 20px;
+}
+.info p{
+	text-align: center;
+	font-size: 14px;
+}
+.browse{
+	width: 100%;
+}
+.browse input{
+	display: block;
+	background-color: #f6f8fa;
+	border: 1px solid grey;
+	color: #1e5160;
+	margin: 50px auto 0px;
+	border-radius: 5px;
+	width: 188px;
+	height: 50px;
+	cursor: pointer;
+}
+.browse a{
+	text-decoration: none;
+}
+.nerqev2{
+	padding-bottom: 60px;
+}
+/*part 3 skizb*/
+.part3{
+	background-color: #f5a623;
+	width: 100%;
+}
+.part3 .why{
+	color: #fff;
+	text-align: center;
+	padding-top: 90px;
+	margin-bottom: 8px;
+}
+.part3 .gic{
+	width: 32px;
+	border-top: 3px solid #0f4555;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 73px;
+}
+.pictures{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.picture{
+	width: 33.3%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 130px;
+}
+.picture img{
+	height: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.picture p{
+	color: #0f4555;
+}
+.picture .mec{
+	margin-top: 23px;
+	text-align: center;
+	font-size: 20px;
+}
+.picture .poqr{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 16px;
+	max-width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*part 4 skizb*/
+.part4{
+	width: 100%;
+}
+.part4 .testimonials{
+	padding-top: 89px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: #1e5160;
+}
+.part4 .orange{
+	border-top: 3px solid #f5a623;
+	border-radius: 5px;
+	width: 32px;
+	margin-bottom: 73px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.student .service{
+	margin-bottom: 54px;
+	color: #0f4555;
+	font-size: 32px;
+}
+.part4 span{
+	display: inline-block;
+	padding-left: 200px;
+	margin-bottom: px;
+	float: left;
+	font-size: 128px;
+	color: #f5a623;
+}
+.student .ramka{
+	float: left;
+	width: 25%;
+}
+.ramka img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ramka .name{
+	margin-top: 20px;
+	color: #0f4555;
+	font-size: 12px;
+}
+.ramka .school{
+	color: #f5a623;
+	font-size: 20px;
+	padding-bottom: 88px;
+}
+.student{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*part 5 skizb*/
+.part5{
+	width: 100%;
+	background-image: url(../img/img-005.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.part5 p{
+	padding-top: 89px;
+
+	text-align: center;
+}
+.part5 .line{
+	border-top: 3px solid #f5a623;
+	width: 30px;
+	margin-bottom: 119px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+.part5 .give{
+	text-align: center;
+	margin-bottom: 41px;
+	padding-left: 630px;
+	padding-right: 630px;
+}
+.registration{
+	width: 100%;
+}
+.part5 a{
+	text-decoration: none;
+}
+.part5 input{
+	display: block;
+	width: 188px;
+	height: 50px;
+	color: #f5a623;
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.botm{
+	padding-bottom: 214px;
+}
+/*part 6 skizb*/
+.part6{
+	width: 100%;
+}
+.part6 .reserved li{
+	color: grey;
+	float: left;
+}
+ul.reserved{
+	padding-left: 5px;
+}
+.part6 ul li{
+	list-style-type: none;
+}
+.rights{
+	float: left;
+	width: 33.33%;
+}
+.row li{
+	float: left;
+}
+.row1 li{
+	float: right;
+}
+ul.row{
+	width: 100%;
+	padding: 0;
+}
+.row a{
+	text-decoration: none;
+	color: grey;
+}
+.row li{
+	display: inline-block;
+	color: grey;
+	padding-right: 29px;
+	padding-left: 29px;
+}
+.row li:first-child{
+	padding-left: 34px;
+}
+.row1 li{
+	display: inline-block;
+	padding-left: 25px;
+}
+ul.row1{
+	padding-right: 40px;
+}
